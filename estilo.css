@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 15px 0;
+  background-color: #daa520;
+  color: #ece7df;
+}
+
+header a {
+  color: #ece7df;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+header nav .link1 {
+  border-right: 4px solid #e0ecdf;
+}
+
+header nav .link1 {
+  border-right: none solid;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  height: auto;
+  margin: 20px 350px;
+
+  /*border: 2px solid rgb(216, 48, 174); /* */
+}
+
+header .container h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+
+/* Colocando O Titulo e os Links lado a lado */
+header .container {
+  display: flex;
+  align-items: center; /* colocando os Elementos na mesma Linha */
+  justify-content: space-between; /* jogando os MENUS pro canto direito */
+}
+
+section .banner-fundo {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.faixa {
+  background-color: rgba(31, 26, 26, 0.966);
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  padding-bottom: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.faixa .ladoa {
+  margin: auto;
+
+  display: flex;
+  text-align: center;
+  color: #ece7df;
+  align-items: center; /* coloca os CONTAINERs na mesma linha */
+}
+
+.proposta1,
+.proposta2,
+.proposta3 {
+  background-color: #3e3c41;
+  margin-left: 30px;
+  padding: 60px 0;
+  margin-top: -50vh; /* faz os CONTAINER se Sobrepor a imagem Banner */
+  height: 310px; /* define a altura dos  CONTAINERs */
+  width: 100vw; /* define a largura dos  CONTAINERs */
+
+  box-shadow: 5px 2px 2px #7c7373; /* sombra ao containers */
+}
+
+/* muda a cor de FUNDO ao passar o Mouse */
+.proposta1:hover {
+  background-color: #2b240d;
+}
+.proposta2:hover {
+  background-color: #2b240d;
+}
+.proposta3:hover {
+  background-color: #2b240d;
+}
+
+/*  ##################  */
+
+.ladoa .proposta1 img {
+  margin-top: -20vh;
+  border-radius: 60px;
+}
+.ladoa .proposta2 img {
+  margin-top: -20vh;
+  border-radius: 60px;
+}
+.ladoa .proposta3 img {
+  margin-top: -20vh;
+  border-radius: 60px;
+}
+
+.proposta1 h2,
+.proposta2 h2,
+.proposta3 h2 {
+  text-transform: uppercase;
+  margin: 20px 20px;
+  margin-left: 80px; /* posicionei o TITULO ao centro  dos CONTAINERs */
+  font-size: 20px;
+  margin-right: 70px; /* gambiarra para centralizar o titulo dos 3 CONTAINERs menores */
+}
+
+.proposta1 p,
+.proposta2 p,
+.proposta3 p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px; /* espaçamento entre linhas */
+  font-weight: normal;
+}
+
+.proposta1 a img {
+  justify-items: end;
+  height: 50px;
+  margin: -50px; /* ****** */
+  margin-left: 280px;
+  position: end;
+}
+
+.proposta2 a img {
+  justify-items: end;
+  height: 50px;
+  margin: -50px;
+  margin-left: 280px;
+  position: end;
+}
+
+.proposta3 a img {
+  justify-items: end;
+  height: 50px;
+  margin: -50px;
+  margin-left: 280px;
+  position: end;
+}
+
+/* ok  */
+.menor {
+  /* border: 2px solid rgb(180, 207, 25);  */
+  margin: auto;
+  margin-top: 15px;
+  color: #ece7df;
+  text-align: justify;
+  height: 100px;
+  width: 1300px;
+  padding: auto 0;
+  position: absolute;
+}
+
+.menor p {
+  text-align: justify;
+  align-items: center;
+  line-height: 40px; /* espaçamento entre linhas */
+  font-size: 30px;
+  position: relative;
+  font-size: 35px;
+  color: #daa520;
+  text-align: center;
+}
+
+.menor img {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: 40px;
+}
+
+/* ####################################### */
+
+.list-local {
+  color: green;
+  display: block;
+  justify-content: space-around;
+  position: absolute; /* jogou o CONTAINER PARA BAIXO */
+}
+
+.list-local ul {
+  display: inline-block;
+}
+
+/* ########################## */
+
+#localizacao {
+  background-color: white;
+  margin: auto;
+}
+
+.box-1 {
+  /* background: #dfd2b1;  */
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  height: 550px;
+  text-transform: uppercase;
+}
+
+.list-local ul {
+  margin: auto;
+  margin-left: 65px;
+  margin-top: 350px;
+  font-size: 18px;
+  color: #352c0f;
+  line-height: 25px; /* espaçamento entre linhas */
+}
+
+.titulo h2 {
+  margin: auto;
+  color: #3e3c41;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.titulo p {
+  margin: auto;
+  color: gray;
+  font-weight: bold;
+  line-height: 20px; /* espaçamento entre as linhas do txt */
+}
+
+.titulo {
+  /* border: 1px solid blueviolet;  */
+  padding-right: 200px;
+  margin: auto;
+}
+
+.pc-local img {
+  margin: auto;
+  height: 350px;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+/* ############################# */
+
+#tipo-sites {
+  margin: auto;
+  background-color: rgb(229, 238, 235);
+}
+
+/* Dimencionamento total para as img */
+#tipo-sites img {
+  height: 250px;
+  width: 330px;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: space-between;
+  height: auto; /*  */
+  flex-direction: column; /* esse */
+}
+
+.box-2 .site-title {
+  justify-content: space-around;
+  font-size: 25px;
+  color: #333235;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.sites-opc {
+  display: flex;
+}
+
+.sites-opc h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.site-padrao p,
+.site-personal p,
+.site-seo p {
+  font-size: 18px;
+  text-align: left;
+  margin-right: 35px;
+  color: #4e4d4a;
+  font-weight: normal;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+/* ############################ */
+
+#contact {
+  text-align: center;
+  font-size: 20px;
+  color: #3e3c41;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.contato {
+  font-size: 25px;
+  margin: 50px auto;
+}
+
+form input {
+  width: 800px;
+  height: 50px;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+form textarea {
+  width: 800px;
+  height: 100px;
+  padding: 20px;
+  resize: none; /* retiro o redimencionamento do textarea */
+}
+
+form button {
+  background-color: #daa520;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  color: #ece7df;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border: none; /* retira o contorno (borda) escura */
+}
+
+/* ##################################  */
+
+footer {
+  background-color: #3a3935;
+  height: 300px;
+  width: auto;
+  display: flex;
+}
+
+footer .container {
+  text-align: justify;
+  display: inline;
+  /* margin: auto;  */
+  height: auto;
+}
+
+.box-3 {
+  /* border: 6px solid rgb(0, 255, 42);*/
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #525250;
+  text-transform: uppercase;
+}
+
+.end1,
+.contato2,
+.redes {
+  padding: auto;
+  /* background: rgb(221, 118, 15);  */
+}
+
+.end1 p,
+.contato2 h2,
+p,
+.redes {
+  margin-top: 15px;
+  padding-top: auto 30px;
+  color: azure;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 15px;
+}
+.box-3 p {
+  margin-right: auto; /* aplicando margem */
+}
+
+.box-3 .contato2 p {
+  color: #daa520;
+}
+
+.box-3 .redes img {
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 15px; /* arredonda os icones e links das redes sociais */
+}
