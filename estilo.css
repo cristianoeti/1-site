@@ -343,7 +343,7 @@ form textarea {
 }
 
 form button {
-  background-color: #daa520;
+  background-color: #93db76;
   width: 300px;
   height: 60px;
   font-size: 18px;
@@ -351,6 +351,7 @@ form button {
   margin-top: 20px;
   text-transform: uppercase;
   border: none; /* retira o contorno (borda) escura */
+  cursor: pointer; /*/* muda o cursor para mãozinha ao passar o mouse */
 }
 
 /* ##################################  */
